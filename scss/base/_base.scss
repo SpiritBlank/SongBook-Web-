@@ -1,6 +1,10 @@
 body {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+
     font-family: $open-sans;
     background-color: $black;
     color: $white;
-    font-size: 16px;
+    font-size: 14px;
 }

@@ -1,8 +1,9 @@
 import { SongListView } from "./songListView.js"
-// import { Model } from "./songListModel.js"
+import {SongListModel} from "./songListModel.js"
 
 export class SongListViewController {
     constructor() {
-        this.view = new SongListView()
+        this.viewModel = new SongListModel()
+        this.view = new SongListView(this.viewModel)
     }
 }

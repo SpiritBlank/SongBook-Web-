@@ -1,0 +1,31 @@
+.song-list {
+  background-color: $light-gray;
+  border-radius: 28px 28px 0 0;
+  padding: 0 18px;
+}
+
+.song-list-item {
+  display: flex;
+  gap: 4px;
+  padding: 18px;
+  width: 100%;
+
+  color: $black;
+  background-color: $white;
+
+  border-radius: 24px;
+
+  &__index {
+    font-size: 16px;
+  }
+
+  &__row-info-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  &__row-info-subtitle {
+    margin-top: 4px;
+    color: $gray;
+  }
+}

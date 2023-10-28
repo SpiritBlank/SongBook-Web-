@@ -13,7 +13,7 @@ export class Header {
                 <h3 class="header-info__subtitle">${this.subtitle}</h3>
             </div>
             <button class="header-button">
-                <img src="${this.button.icon}" alt="action-icon">
+                <img class="icon" src="${this.button.icon}" alt="action-icon">
             </button>
         </header>
         `
